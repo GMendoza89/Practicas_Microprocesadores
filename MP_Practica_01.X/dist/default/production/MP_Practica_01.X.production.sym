@@ -1,0 +1,68 @@
+__S0 8000 0 ABS 0
+__S1 0 0 ABS 0
+__S3 0 0 ABS 0
+__Hudata_bank4 4 0 ABS 0
+__Ludata_bank4 4 0 ABS 0
+__Hconfig 30000E 0 CONFIG 4
+__Lconfig 0 0 CONFIG 4
+__Hudata_acs 4 0 ABS 0
+__Ludata_acs 4 0 ABS 0
+isa$xinst 0 0 ABS 0
+__Hudata_bank5 4 0 ABS 0
+__Ludata_bank5 4 0 ABS 0
+__HresetVect 2 0 CODE 0
+__LresetVect 0 0 CODE 0
+__Hcode 4 0 ABS 0
+__Lcode 4 0 ABS 0
+__Hdata 4 0 ABS 0
+__Ldata 4 0 ABS 0
+isa$std 1 0 ABS 0
+__Hudata_bank0 4 0 ABS 0
+__Ludata_bank0 4 0 ABS 0
+__Hudata_bank6 4 0 ABS 0
+__Ludata_bank6 4 0 ABS 0
+__Hedata 4 0 ABS 0
+__Ledata 4 0 ABS 0
+__Hudata 4 0 ABS 0
+__Ludata 4 0 ABS 0
+__Hudata_bank1 4 0 ABS 0
+__Ludata_bank1 4 0 ABS 0
+__Hspace_0 8000 0 ABS 0
+__Lspace_0 0 0 ABS 0
+__Hspace_1 0 0 ABS 0
+__Lspace_1 0 0 ABS 0
+__Hudata_bank7 4 0 ABS 0
+__Ludata_bank7 4 0 ABS 0
+__Hspace_3 0 0 ABS 0
+__Lspace_3 0 0 ABS 0
+__Hspace_4 60000E 0 ABS 0
+__Lspace_4 0 0 ABS 0
+__Hudata_bank2 4 0 ABS 0
+__Ludata_bank2 4 0 ABS 0
+__Hudata_bank3 4 0 ABS 0
+__Ludata_bank3 4 0 ABS 0
+%segments
+resetVect 0 3 CODE 0 0
+code FFD8 FFFF CODE FFD8 0
+%locals
+build/default/production/main.o
+/Applications/microchip/xc8/v2.32/pic/include/proc/pic18f4550.inc
+main.asm
+76 7FEC 0 CODE 0
+77 7FED 0 CODE 0
+81 7FEE 0 CODE 0
+82 7FEF 0 CODE 0
+83 7FF0 0 CODE 0
+84 7FF1 0 CODE 0
+85 7FF2 0 CODE 0
+86 7FF3 0 CODE 0
+87 7FF4 0 CODE 0
+88 7FF5 0 CODE 0
+89 7FF6 0 CODE 0
+92 7FF8 0 CODE 0
+93 7FF9 0 CODE 0
+94 7FFB 0 CODE 0
+95 7FFC 0 CODE 0
+96 7FFE 0 CODE 0
+main.asm
+69 0 0 CODE 0

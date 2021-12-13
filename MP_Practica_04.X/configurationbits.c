@@ -10,6 +10,11 @@
 
 // 'C' source line config statements
 
+
+#include <xc.h>
+#include "configurationbits.h"
+
+
 // CONFIG1L
 #pragma config PLLDIV = 1       // PLL Prescaler Selection bits (No prescale (4 MHz oscillator input drives PLL directly))
 #pragma config CPUDIV = OSC1_PLL2// System Clock Postscaler Selection bits ([Primary Oscillator Src: /1][96 MHz PLL Src: /2])
@@ -75,4 +80,4 @@
 // #pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
 
-#include <xc.h>
+

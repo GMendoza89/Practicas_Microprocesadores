@@ -7,7 +7,8 @@
 
 
 #include <xc.h>
-#define _XTAL_FREQ 20000000
+#include "configurationbits.h"
+
 void configPWM(char pr2_register);
 void writeDutyCicle(char dutyCicle);
 

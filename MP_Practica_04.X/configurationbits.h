@@ -1,6 +1,6 @@
 /* 
- * File:   
- * Author: 
+ * File:   configurationBits
+ * Author:  Ing Gustavo David mendoza Pinto
  * Comments:
  * Revision history: 
  */
@@ -11,7 +11,8 @@
 #define	CONFIGURATIONBITS
 
 #include <xc.h> // include processor files - each processor file is guarded.  
-#define _XTAL_FREQ 40000000
+#define _XTAL_FREQ 20000000
 
 #endif	/* XC_HEADER_TEMPLATE_H */
+
 

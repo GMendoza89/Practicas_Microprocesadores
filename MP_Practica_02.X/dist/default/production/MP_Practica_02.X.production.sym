@@ -1,4 +1,4 @@
-__S0 7FFF 0 ABS 0
+__S0 8000 0 ABS 0
 __S1 0 0 ABS 0
 __S3 0 0 ABS 0
 __Hudata_bank4 4 0 ABS 0
@@ -27,7 +27,7 @@ __Hudata 4 0 ABS 0
 __Ludata 4 0 ABS 0
 __Hudata_bank1 4 0 ABS 0
 __Ludata_bank1 4 0 ABS 0
-__Hspace_0 7FFF 0 ABS 0
+__Hspace_0 8000 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __Hspace_1 0 0 ABS 0
 __Lspace_1 0 0 ABS 0
@@ -43,18 +43,23 @@ __Hudata_bank3 4 0 ABS 0
 __Ludata_bank3 4 0 ABS 0
 %segments
 resetVect 0 3 CODE 0 0
-code FFEC FFFD CODE FFEC 0
+code FFE4 FFFF CODE FFE4 0
 %locals
 build/default/production/main.o
 /Applications/microchip/xc8/v2.32/pic/include/proc/pic18f4550.inc
 main.asm
-76 7FF6 0 CODE 0
-77 7FF7 0 CODE 0
-78 7FF8 0 CODE 0
-79 7FF9 0 CODE 0
-80 7FFA 0 CODE 0
-83 7FFB 0 CODE 0
-84 7FFC 0 CODE 0
-85 7FFD 0 CODE 0
+75 7FF2 0 CODE 0
+76 7FF3 0 CODE 0
+77 7FF4 0 CODE 0
+78 7FF5 0 CODE 0
+79 7FF6 0 CODE 0
+80 7FF7 0 CODE 0
+82 7FF8 0 CODE 0
+83 7FF9 0 CODE 0
+84 7FFA 0 CODE 0
+85 7FFB 0 CODE 0
+88 7FFC 0 CODE 0
+89 7FFD 0 CODE 0
+90 7FFE 0 CODE 0
 main.asm
 69 0 0 CODE 0

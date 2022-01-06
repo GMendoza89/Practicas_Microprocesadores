@@ -71,13 +71,18 @@ resetVect:
 PSECT code, delta=2
 
 main:
-    counterOne EQU 0x20
-    counterTwo EQU 0x21
-    CLRF PORTD
-    CLRF TRISD
+    ;configurando Puerto B como entrada digital
     CLRF PORTB
-    MOVLW 0x00
+    CLRF LATB
+    MOVLW 0x0E
+    MOVWF ADCON1
+    MOVLW 0xFF
     MOVWF TRISB,F
+    ;configurando puerto D
+    CLRF PORTD
+    CLRF LATC
+    CLRF LATD
+    CLRF TRISD
     
 loop:
     MOVF PORTB,W

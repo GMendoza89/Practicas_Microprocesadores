@@ -75,9 +75,7 @@ main:
     counterTwo EQU 0x21
     CLRF PORTD
     CLRF TRISD
- 
 loop:
-    
     btg RD0
     btg RD1
     btg RD2
@@ -87,7 +85,6 @@ loop:
     btg RD6
     btg RD7
     goto delay
-    
 delay:
     decfsz counterOne,f
     goto delay
@@ -97,7 +94,3 @@ delay:
     
 END resetVect
     
-
-
-
-

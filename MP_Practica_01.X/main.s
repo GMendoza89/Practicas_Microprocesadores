@@ -22,14 +22,11 @@
   CONFIG  LVP = OFF             ; Single-Supply ICSP Enable bit (Single-Supply ICSP disabled)
 
 
-PSECT DATAS
- TMP:
-    DS 1; TMP -> i BYTE
 
 PSECT _main, CLASS = CODE, reloc=2
  
 
- main:
+ _main:
     goto INICIO
     
   PSECT CODE
@@ -51,5 +48,5 @@ delay:
     goto LOOP
     
     
-    END main
+END _main
     

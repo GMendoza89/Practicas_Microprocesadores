@@ -53,18 +53,18 @@ MEDIUMCONST 800-7FFB 1
 # All other numeric values are in decimal.
 %LINETAB
 $build/default/production/main.o
-0 CODE ABS >39:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-2 CODE ABS >40:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-4 CODE ABS >41:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-6 CODE ABS >43:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-8 CODE ABS >44:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-A CODE ABS >45:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-E CODE ABS >47:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-10 CODE ABS >48:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-14 CODE ABS >49:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-16 CODE ABS >50:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-1A CODE ABS >51:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
-7FFC _main CODE >33:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+0 CODE ABS >36:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+2 CODE ABS >37:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+4 CODE ABS >38:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+6 CODE ABS >40:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+8 CODE ABS >41:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+A CODE ABS >42:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+E CODE ABS >44:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+10 CODE ABS >45:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+14 CODE ABS >46:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+16 CODE ABS >47:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+1A CODE ABS >48:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
+7FFC _main CODE >30:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -90,12 +90,10 @@ __Hudata_bank5 1E 0 ABS 0 udata_bank5 -
 __Hudata_bank6 1E 0 ABS 0 udata_bank6 -
 __Hudata_bank7 1E 0 ABS 0 udata_bank7 -
 isa$xinst 0 0 ABS 0 - build/default/production/main.o
-__HDATAS 1E 0 ABS 0 DATAS -
 __H_main 1E 0 ABS 0 _main -
 __Hedata 1E 0 ABS 0 edata -
 __Hudata 1E 0 ABS 0 udata -
 __Hconfig 30000E 0 CONFIG 4 config -
-__LDATAS 1E 0 ABS 0 DATAS -
 __L_main 1E 0 ABS 0 _main -
 __Ledata 1E 0 ABS 0 edata -
 __Ludata 1E 0 ABS 0 udata -

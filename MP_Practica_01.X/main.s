@@ -33,8 +33,8 @@ PSECT _main, CLASS = CODE, reloc=2
   INICIO:
     counterOne EQU 020h
     counterTwo EQU 021h
-    movlw 00001111B
-    movwf ADCON1
+    CLRF PORTD
+    CLRF LATD
     clrf TRISD
 LOOP:    
     movlw 00fh

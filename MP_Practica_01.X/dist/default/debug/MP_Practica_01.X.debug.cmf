@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$build/default/production/main.o
+$build/default/debug/main.o
 _main CODE 0 7FFC 7FFC 4 1
 CODE - 0 0 0 1E 1
 config CONFIG 4 300000 300000 E 1
@@ -52,7 +52,7 @@ MEDIUMCONST 800-7FFB 1
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
-$build/default/production/main.o
+$build/default/debug/main.o
 0 CODE ABS >39:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
 2 CODE ABS >40:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
 4 CODE ABS >41:/Users/gustavomendoza/MPLABXProjects/Microprocesadores/MP_Practica_01.X/main.s
@@ -89,7 +89,7 @@ __Hudata_bank4 1E 0 ABS 0 udata_bank4 -
 __Hudata_bank5 1E 0 ABS 0 udata_bank5 -
 __Hudata_bank6 1E 0 ABS 0 udata_bank6 -
 __Hudata_bank7 1E 0 ABS 0 udata_bank7 -
-isa$xinst 0 0 ABS 0 - build/default/production/main.o
+isa$xinst 0 0 ABS 0 - build/default/debug/main.o
 __HDATAS 1E 0 ABS 0 DATAS -
 __H_main 1E 0 ABS 0 _main -
 __Hedata 1E 0 ABS 0 edata -
@@ -109,7 +109,7 @@ __S0 8000 0 ABS 0 - -
 __S1 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 __Lconfig 0 0 CONFIG 4 config -
-isa$std 1 0 ABS 0 - build/default/production/main.o
+isa$std 1 0 ABS 0 - build/default/debug/main.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -

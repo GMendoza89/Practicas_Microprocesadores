@@ -1,1 +1,1 @@
-build/default/production/main.i: main.asm
+build/default/production/main.i: main.s

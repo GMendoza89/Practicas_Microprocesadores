@@ -1,4 +1,3 @@
-
 ;PROCESSOR 18F4550
 
 ; PIC18F4550 Configuration Bit Settings
@@ -28,22 +27,22 @@ STARTMAIN:
     ;Configurando Pines A0 a A5 como entradas digitales
     CLRF PORTA
     CLRF LATA
-    MOVLW 0x0F
-    MOVWF 0x07
+    MOVLW 00Fh
+    MOVWF ADCON1
+    MOVLW 007h
     MOVWF CMCON
-    MOVLW 0x3F
-    MOVWF TRISA
+    MOVLW 03Fh
+    MOVWF TRISA,F
     ;configurando Puerto B como entrada digital
     CLRF PORTB
     CLRF LATB
-    MOVLW 0x0E
+    MOVLW 00Eh
     MOVWF ADCON1
-    MOVLW 0xFF
-    MOVWF TRISB,F
+    SETF TRISB
     ;configurando puerto C
     CLRF PORTC
     CLRF LATC
-    MOVLW 0xF0
+    MOVLW 0F0h
     MOVWF TRISC,F
     ;configurando puerto D
     CLRF PORTD
@@ -57,12 +56,6 @@ LOOP:
     BTFSC PORTC,3
     GOTO andAB
     GOTO LOOP
-delay:
-    decfsz counterOne
-    goto delay
-    decfsz counterTwo
-    goto delay
-    goto LOOP
 add:
     MOVF PORTA,W
     ADDWF PORTB,W
@@ -75,9 +68,6 @@ andAB:
     goto LOOP
      
 END _main
-
-
-
 
 
 

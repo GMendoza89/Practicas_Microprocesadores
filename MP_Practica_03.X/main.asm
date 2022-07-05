@@ -53,7 +53,7 @@ STARTMAIN:
 LOOP:    
     BTFSC PORTC,4
     GOTO add
-    BTFSC PORTC,3
+    BTFSC PORTC,5
     GOTO andAB
     GOTO LOOP
 add:
